@@ -1,0 +1,3 @@
+# LangChain
+## What is LangChain
+LangChain is an opensource framework for developing applications powered by Large Language Models (LLMs).
