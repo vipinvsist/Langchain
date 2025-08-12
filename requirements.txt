@@ -1,2 +1,15 @@
 langchain==0.3.27
 langchain-community==0.3.27
+langchain-core==0.3.74
+langchain-openai==0.3.30
+openai==1.99.9
+langchain-anthropic==0.3.18
+langchain-google-genai==2.1.9
+google-generativeai
+langchain-huggingface==0.3.1
+transformers==4.55.0
+huggingface-hub==0.34.4
+python-dotenv==1.1.1
+numpy==2.3.2
+scikit-learn==1.7.1
+embeddings==0.0.8
