@@ -3,7 +3,6 @@ from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
 from dotenv import load_dotenv
 load_dotenv()
 
-
 chat_history=[
     SystemMessage(content='You are an helpful AI assistant'),
 ]
