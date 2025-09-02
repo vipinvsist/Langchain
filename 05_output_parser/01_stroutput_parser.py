@@ -1,15 +1,15 @@
-# from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 load_dotenv()
-# llm = HuggingFaceEndpoint(
-#     repo_id="TinyLlama/TinyLlama-1.1B-chat-v1.0",
-#     task='text generation'
-# )
+llm = HuggingFaceEndpoint(
+    repo_id="google/gemma-2-2b-it",
+    task='text generation'
+)
 
-# model = ChatHuggingFace(llm=llm)
-model = ChatOpenAI(name='gpt-4.1-nano')
+model = ChatHuggingFace(llm=llm)
+# model = ChatOpenAI(name='gpt-4.1-nano')
 # 1st prompt template
 template1 = PromptTemplate(
     template='Write a detailed report on {topic}',
