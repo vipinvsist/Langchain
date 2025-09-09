@@ -15,3 +15,4 @@ scikit-learn==1.7.1
 embeddings==0.0.8
 streamlit-desktop-app==0.3.4
 pydantic3==1.0.14
+grandalf==0.8
