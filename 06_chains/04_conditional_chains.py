@@ -28,7 +28,7 @@ prompt1=PromptTemplate(
 classifier_chain = prompt1|model|parser2
 
 result= classifier_chain.invoke({'feedback':"This smartphone isn't smart"}).sentiment
-
+print(result)
 # print(result)
 prompt2 = PromptTemplate(
     template="write and appropriate feedback for this positive feedback \n {feedback}",
