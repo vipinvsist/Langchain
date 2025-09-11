@@ -1,5 +1,4 @@
-from regex import template
-from llmcomponent import DemoLLM,DemoPromptTemplate
+from c_llmcomponent_demo import DemoLLM,DemoPromptTemplate
 class DemoLLMChain:
     def __init__(self,llm,prompt):
         self.llm=llm
@@ -20,4 +19,6 @@ llm = DemoLLM()
 print(llm)
 
 chain=DemoLLMChain(llm=llm,prompt=template)
-print(chain)
+
+print(10*"========")
+print(chain.run({'topic':"Black holes", "length":"detailed"}))
