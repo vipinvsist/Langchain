@@ -17,4 +17,4 @@ streamlit-desktop-app==0.3.4
 pydantic3==1.0.14
 grandalf==0.8
 pypdf==6.0.0
-
+chromadb==1.1.0
